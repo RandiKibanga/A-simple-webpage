@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1f2937;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding: 60px;
+}
+.navbar ul {
+  flex: 1;
+  text-align: right;
+}
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 24px;
+}
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+  padding: 60px;
+  padding-bottom: 0;
+}
+.title p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+aside button {
+  font-size: 18px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  color: #e5e7eb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+aside div img {
+  padding: 24px;
+  width: 450;
+  height: 200;
+}
+main {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+}
+
+main .illustration {
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+  margin-right: 30px;
+  padding-top: 0;
+}
+main section p {
+  font-size: 18px;
+  color: gray;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  padding: 80px;
+}
+.quote q {
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding: 60px;
+}
+.owner {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.calltoaction {
+  background-color: #f9faf8;
+  display: flex;
+  padding: 90px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.randomtext {
+  background-color: #3882f6;
+  padding: 60px;
+  align-items: center;
+  border-radius: 30px;
+}
+.signup {
+  border: 2px solid white;
+  font-size: large;
+  margin-left: 20px;
+  background-color: #3882f6;
+  padding: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
